@@ -5,6 +5,7 @@ const customDictionary = {
   wrok: "work",
   fot: "for",
   exampl: "example",
+  amd: "and",
 };
 
 function SpellCheck() {
