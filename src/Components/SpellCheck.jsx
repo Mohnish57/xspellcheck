@@ -33,7 +33,7 @@ function SpellCheck() {
         onChange={handleChange}
         value={data.inputText}
       ></textarea>
-      {data.suggestedText ? <p>Do you mean: {data.suggestedText}?</p> : null}
+      {data.suggestedText ? <p>Did you mean: {data.suggestedText}?</p> : null}
     </div>
   );
 }
